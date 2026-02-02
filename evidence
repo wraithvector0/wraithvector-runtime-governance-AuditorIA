@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-01-05T12:41:32Z",
+  "agent_id": "agent-operator-1",
+  "action": "GET /api/customer/full?id=123",
+  "policy_id": "bank-customer-access-v1",
+  "decision": "DENY",
+  "context_hash": "a94f0c9e…",
+  "evidence_hash": "f38bc91d…",
+  "previous_hash": "72b1aa9f…"
+}
