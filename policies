@@ -1,0 +1,15 @@
+{
+  "policy_id": "bank-customer-access-v1",
+  "description": "Agent may access basic customer data but never full profiles or PII",
+  "rules": [
+    {
+      "resource": "/api/customer/basic",
+      "effect": "ALLOW"
+    },
+    {
+      "resource": "/api/customer/full",
+      "effect": "DENY"
+    }
+  ],
+  "version": "1.0.0"
+}
