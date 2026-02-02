@@ -1,0 +1,10 @@
+# Demo
+
+This demo simulates:
+
+1. An AI agent calling a forbidden bank API  
+2. WraithVector intercepting the action  
+3. A policy-based DENY  
+4. Cryptographic evidence generation  
+
+The real demo runs in a private environment with customer-specific workflows.
